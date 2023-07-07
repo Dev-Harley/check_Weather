@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather Checker</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto:wght@400;700&family=Saira+Stencil+One&display=swap"
+    rel="stylesheet">
+</head>
+
+<body id="top" class="dark_theme" style="background-image: url(img/hero1.png); background-color: hsla(0, 0%, 8%, 0.8);">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header  style="padding-right: 70px;" >
+    <div class="container">
+
+      <h1 class="h1 logo">
+        <a href="#">Rio<span>.</span></a>
+      </h1>
+
+      <div class="navbar-actions">
+
+    
+
+        <button class="theme-btn" aria-label="Change Theme" title="Change Theme" data-theme-btn style="display: none;">
+          <span class="icon"></span>
+        </button>
+
+      </div>
+
+      <button class="nav-toggle-btn" aria-label="Toggle Menu" title="Toggle Menu" data-nav-toggle-btn>
+        <span class="one"></span>
+        <span class="two"></span>
+        <span class="three"></span>
+      </button>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li>
+            <a href="https://rioharley.in/#home" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="https://rioharley.in/#about" class="navbar-link">About</a>
+          </li>
+
+          <li>
+            <a href="https://rioharley.in/#skills" class="navbar-link">Skills</a>
+          </li>
+
+          <li>
+            <a href="https://rioharley.in/#portfolio" class="navbar-link">Portfolio</a>
+          </li>
+
+          <li>
+            <a href="https://rioharley.in/#contact" class="navbar-link">Contact</a>
+          </li>
+
+        </ul>
+      </nav>
+
+    </div>
+  </header>
+
+  <!-- ||MAIN  -->
+  <h1 style="font-size: 3rem; margin-bottom: 40px; color: antiquewhite;">How's Weather in your city?</h1>
+<article style="text-align: center;">
+  <input type="text" autocomplete="off" class="search-box" placeholder="Search for a city">
+    </article>
+
+     <main>
+        <section class="location">
+          <br>
+            <div class="city" style="font-size: 2rem; color: aliceblue;">Manila, Las Pinas</div>
+            <br>
+            <div class="date" style="font-size: 1.2rem; text-align: center; color: aliceblue;">Monday 30 May</div>
+        </section>
+
+        <div class="current">
+            <div class="temp" style="font-size: 40px; text-align: center; display: block; color: aliceblue;">15<sup style="font-size: 25px;"> &#9675 C</sup></div>
+            <div class="weather" style="font-size: 2.5rem; color: aliceblue;">Sunny</div>
+            <div class="hi-low" style="font-size: 1rem; text-align: center; color: aliceblue;">13°C / 16°C</div>
+        </div>
+    </main>
+
+  <script src="script.js"></script>
+  </body>
+  </html>
+  
